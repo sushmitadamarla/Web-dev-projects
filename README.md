@@ -8,5 +8,3 @@ Welcome to the **Love Calculator**! This simple web application allows users to 
 - **Love Percentage Calculation**: Randomly generated love percentage based on user inputs.
 - **Responsive Design**: Works well on both desktop and mobile devices.
 - **Interactive Elements**: Alerts users when names are not provided.
-
-## Getting Started
