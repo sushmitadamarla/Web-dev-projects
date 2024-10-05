@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Demo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 id="h1">Love Calculator</h1>
+    <img src="heart-image.jpeg" id="img" alt="heart image">
+
+    <div id="div1">
+        <b><u>Love</u></b>
+        <br><br>
+        noun
+        <p>1. a strong feeling that you have when you like somebody/something very much.</p>
+
+        <p>Welcome to the Love Calculator! Are you curious about how much love is in the air? Simply enter your name and the name of your crush or partner to discover your unique love percentage.</p>
+    </div>
+
+    <div id="div2">
+        <label for="yourName"></label>
+        <input type="text" id="yourName" name="yourName" placeholder="Enter your name here: ">
+
+        <br>
+
+        <label for="theirName"></label>
+        <input type="text" id="theirName" name="theirName" placeholder="Enter their name here: ">
+    </div>
+
+    <button type="button" onclick="calculated_love()">Enter</button>
+
+    <p id="result"></p>
+
+    <script src="script.js"></script>
+</body>
+</html>

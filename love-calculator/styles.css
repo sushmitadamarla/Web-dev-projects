@@ -1,0 +1,88 @@
+/* Body styling */
+body {
+    background-color: pink;
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; 
+    justify-content: center; /* Center content vertically */
+    height: 100vh; /* Full viewport height */
+    padding: 20px;
+    margin: 0; /* Remove default margin */
+}
+
+/* Heading styling */
+#h1 {
+    color: red;
+    text-align: center;
+    margin: 20px;
+    font-size: 36px;
+}
+
+#img
+{
+    width: 20%;
+}
+
+#div1 {
+    color: black;
+    background-color: #ffe4e1;
+    border: 2px solid #ff69b4;
+    margin: 20px;
+    width: 60%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#div1 p {
+    color: #333;
+}
+
+input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    display: block;
+    border: 2px solid #ff69b4;
+    border-radius: 8px;
+    font-size: 16px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input[type="text"]:focus {
+    outline: none;
+    border-color: #ff1493;
+    box-shadow: 0 0 8px #ff1493;
+}
+
+#div2 {
+    width: 60%;
+    margin: 10px 0;
+    text-align: center;
+}
+
+button
+{
+    width: 20%;
+    margin: 10px;
+    padding: 10px;
+    background-color: antiquewhite;
+    border-color: #ff1493;
+    border-radius: 8px;
+}
+
+#result {
+    width: 60%; 
+    margin: 20px;
+    margin-bottom: 30px; 
+    border: 2px solid #ff1493;
+    border-radius: 8px; 
+    display: none; 
+    padding: 10px; 
+    background-color: antiquewhite; 
+    color: #333; 
+    text-align: center; 
+}
+
